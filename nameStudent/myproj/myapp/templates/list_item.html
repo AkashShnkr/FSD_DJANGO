@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Fruits</h3>
+    <ul>
+      {% for fruit in fruits %}
+      <li>{{fruit}}</li>
+      {% endfor %}
+    </ul>
+    <h3>Students</h3>
+    <ul>
+        {% for student in students %}
+        <li> {{student}} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
